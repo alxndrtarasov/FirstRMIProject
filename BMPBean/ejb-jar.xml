@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar>
+     <enterprise-beans>
+        <entity>
+            <description>no description</description>
+            <display-name>EmployeeBean</display-name>
+            <ejb-name>EmployeeBean</ejb-name>
+            <home>bmpapp.EmployeeHome</home>
+            <remote>bmpapp.Employee</remote>
+            <ejb-class>bmpapp.EmployeeBean</ejb-class>
+            <persistence-type>Bean</persistence-type>
+            <prim-key-class>bmpapp.EmployeePK</prim-key-class>
+            <reentrant>false</reentrant>
+        <!--    <resource-ref>
+                <res-ref-name>jdbc/OracleSample</res-ref-name>
+                <res-type>javax.sql.DataSource</res-type>
+                <res-auth>Application</res-auth>
+            </resource-ref>
+        -->
+        </entity>
+    </enterprise-beans>
+
+</ejb-jar>
